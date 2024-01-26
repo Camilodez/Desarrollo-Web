@@ -1,0 +1,51 @@
+
+#header{
+    background-color: rgb(255, 255, 255);
+}
+#maintitle{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+#titletable{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+}
+
+#Table{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    width: auto;
+    margin: 0 auto;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+
+
+
+#Links{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+}
+
+
+#redes {
+    display: flex;
+    
+    margin-top: 10px; /* Ajusta según sea necesario */
+}
+
+ul img {
+    margin-bottom: 20px; /* Ajusta según sea necesario */
+}
+
+footer{
+    flex-wrap: wrap;
+}
