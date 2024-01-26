@@ -26,6 +26,9 @@
     border: 1px solid black;
 }
 
+#Links a {
+    text-decoration: none;
+}
 
 
 
@@ -47,5 +50,16 @@ ul img {
 }
 
 footer{
+    flex-wrap: wrap;
+}
+
+.container{
+    display: flex;
+}
+
+#redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
