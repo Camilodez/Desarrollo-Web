@@ -49,10 +49,6 @@ ul img {
     margin-bottom: 20px; /* Ajusta según sea necesario */
 }
 
-footer{
-    flex-wrap: wrap;
-}
-
 .container{
     display: flex;
 }
@@ -62,4 +58,48 @@ footer{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+body, h1, h2, p, figure {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.footer {
+    background-color: #f5f5f5; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    text-align: center;
+}
+
+.footer .Group1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    margin-bottom: 20px;
+}
+
+.box h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.red-social a {
+    margin-right: 10px;
+}
+
+.group2 {
+    margin-top: 20px;
+}
+
+.group2 small {
+    font-size: 0.8em;
+    color: #666; /* Color del texto secundario */
 }

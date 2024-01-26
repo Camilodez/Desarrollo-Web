@@ -1,28 +1,52 @@
-footer {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+/* Reset de estilos y estilos básicos */
+body, h1, h2, p, figure {
+    margin: 0;
+    padding: 0;
 }
 
-#redes {
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.footer {
+    background-color: #f5f5f5; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    text-align: center;
+}
+
+.footer .Group1 {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
     margin-bottom: 20px;
 }
 
-#redes a {
-    margin: 0 10px;
+.box h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
 }
 
-#navegacion a {
-    color: rgb(0, 0, 0);
-    margin: 0 10px;
-    text-decoration: none;
-    font-size: 18px;
+.red-social a {
+    margin-right: 10px;
 }
 
-#navegacion a:hover {
-    text-decoration: underline;
+.group2 {
+    margin-top: 20px;
+}
+
+.group2 small {
+    font-size: 0.8em;
+    color: #666; /* Color del texto secundario */
+}
+
+
+#imageindex{
+    width: 3300px;
+    height: 3300px;
 }
