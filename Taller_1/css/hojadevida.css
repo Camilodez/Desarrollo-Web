@@ -33,7 +33,73 @@ header div ol a {
 
 body {
     font-family: 'Lora', serif;
-    margin: 0;
+   
     background-color: #fffff3;
-    
+   
+}
+
+#maintitle{
+    text-align: center;
+}
+
+
+
+section {
+    margin: 50px;
+    text-align: center;
+}
+
+.navmenu ul{
+    text-align: center;
+}
+
+
+
+
+.footer {
+    background-color: #faeeda; /* Color de fondo */
+    padding: 0px; /* Espaciado interno */
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    position: static;
+    margin: auto;
+}
+
+.footer .Group1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    margin-bottom: 20px;
+}
+
+.box h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.red-social a {
+    margin-right: 10px;
+}
+
+.group2 {
+    margin-top: 20px;
+}
+
+.group2 small {
+    font-size: 0.8em;
+    color: #666; /* Color del texto secundario */
+}
+
+
+#imageindex{
+    width: 3300px;
+    height: 3300px;
+}
+
+.container-all{
+    min-height: 500px;
 }

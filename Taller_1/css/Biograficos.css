@@ -60,7 +60,7 @@ body {
     width: auto;
     margin: 0 auto;
     height: 200px;
-    border-radius: 10px;
+    border-radius: 3px;
     border: 1px solid black;
 }
 
@@ -103,10 +103,7 @@ body, h1, h2, p, figure {
     padding: 0;
 }
 
-body {
-    font-family: 'Lora', serif;
-    background-color: #fffff3;
-}
+
 
 .footer {
     background-color: #faeeda; /* Color de fondo */

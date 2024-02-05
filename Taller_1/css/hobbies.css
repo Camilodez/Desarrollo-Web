@@ -36,3 +36,58 @@ body {
     background-color: #fffff3;
     
 }
+
+#maintitle{
+    text-align: center;
+}
+
+#material-interes{
+    margin: auto;
+    text-align: center;
+   
+}
+
+#material-interes ul{
+    margin: auto;
+    text-align: center;
+    padding: 0;
+}
+
+#imagenes{
+    text-align: center;
+}
+
+.footer {
+    background-color: #faeeda; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    text-align: center;
+}
+
+.footer .Group1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    margin-bottom: 20px;
+}
+
+.box h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.red-social a {
+    margin-right: 10px;
+}
+
+.group2 {
+    margin-top: 20px;
+}
+
+.group2 small {
+    font-size: 0.8em;
+    color: #666; /* Color del texto secundario */
+}
