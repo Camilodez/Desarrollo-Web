@@ -1,14 +1,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@300&family=Lora:ital@1&display=swap');
 
-
+html{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
 header {
-    background-color: #f7f4e8;
+    background-color: #faeeda;
     width: 100%; /* Ancho del encabezado */
     padding: 10px;
     text-align: center;
     font-family: 'Bebas Neue', sans-serif;
-    position: fixed;
+    position: sticky;
+    top: 0;
 }
 
 
@@ -29,21 +34,33 @@ header div ol a {
 
 body {
     font-family: 'Lora', serif;
+    margin: 0;
+    background-color: #fffff3;
     
 }
 
 .imageindex{
     border: 1px solid black;
+    width: 30%;
+    float: left;
+    margin: 10px;
     
+}
+
+ h2{
+    display: flex;
+    justify-content: center;
 }
 
 
 
 .footer {
-    background-color: #f7f4e8; /* Color de fondo */
+    background-color: #faeeda; /* Color de fondo */
     padding: 0px; /* Espaciado interno */
     text-align: center;
     font-family: 'Kanit', sans-serif;
+    position: static;
+    margin: auto;
 }
 
 .footer .Group1 {
@@ -79,4 +96,8 @@ body {
 #imageindex{
     width: 3300px;
     height: 3300px;
+}
+
+.container-all{
+    min-height: 500px;
 }
