@@ -7,9 +7,10 @@ html{
     height: 100%;
     width: 100%;
     overflow-x: hidden;
+    
 }
 header {
-    background-color: #faeeda;
+    background-color: #c4d4ab;
     width: 100%; /* Ancho del encabezado */
     padding: 10px;
     text-align: center;
@@ -33,7 +34,7 @@ header div ol a {
 body {
     font-family: 'Lora', serif;
     margin: 0;
-    background-color: #fffff3;
+    background-color: #eff0d5;
     
 }
 
@@ -57,8 +58,13 @@ body {
     text-align: center;
 }
 
+#imagenes img{
+    width: 400px;
+    height: 400px;
+}
+
 .footer {
-    background-color: #faeeda; /* Color de fondo */
+    background-color: #87b091; /* Color de fondo */
     padding: 20px; /* Espaciado interno */
     text-align: center;
 }
@@ -89,5 +95,5 @@ body {
 
 .group2 small {
     font-size: 0.8em;
-    color: #666; /* Color del texto secundario */
+    color: #171430; /* Color del texto secundario */
 }
