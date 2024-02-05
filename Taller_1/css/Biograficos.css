@@ -7,7 +7,7 @@ html{
     overflow-x: hidden;
 }
 header {
-    background-color: #faeeda;
+    background-color: #c4d4ab;
     width: 100%; /* Ancho del encabezado */
     padding: 10px;
     text-align: center;
@@ -32,10 +32,16 @@ header div ol a {
     font-size: 25px;
 }
 
+.boton :hover{
+    background-color: #1717e2;
+    color: #6565ad;
+    
+}
+
 body {
     font-family: 'Lora', serif;
     margin: 0;
-    background-color: #fffff3;
+    background-color: #eff0d5;
     
 }
 
@@ -106,7 +112,7 @@ body, h1, h2, p, figure {
 
 
 .footer {
-    background-color: #faeeda; /* Color de fondo */
+    background-color: #c4d4ab; /* Color de fondo */
     padding: 20px; /* Espaciado interno */
     text-align: center;
 }

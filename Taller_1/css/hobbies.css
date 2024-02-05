@@ -37,7 +37,11 @@ body {
     background-color: #eff0d5;
     
 }
-
+.boton :hover{
+    background-color: #1717e2;
+    color: #1717e2;
+    
+}
 #maintitle{
     text-align: center;
 }
@@ -64,7 +68,7 @@ body {
 }
 
 .footer {
-    background-color: #87b091; /* Color de fondo */
+    background-color: #c4d4ab; /* Color de fondo */
     padding: 20px; /* Espaciado interno */
     text-align: center;
 }
