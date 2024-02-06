@@ -48,4 +48,28 @@ body {
    
 }
 
+#friendForm{
+    margin: 20px;
+}
 
+#friendTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #000000;
+    margin: 20px;
+   
+}
+
+th, td{
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+}
