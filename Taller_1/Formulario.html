@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./css/Formulario.css">
+    <script src="./js/Formulario.js"></script>
+</head>
+<body>
+
+    <header id="header">
+        
+        <div>
+            
+
+            <ol>
+                <span class="boton"> <a href="./biograficos.html" > Biofraficos</a></span>
+                <span class="boton"><a href="./index.html">index </a></span>
+               <span class="boton"><a href="./hobbies.html"> Hobbies</a> </span>
+               <span class="boton"><a href="./Formulario.html"> Formulario</a></span> 
+            </ol>
+      
+        </div>
+</header> 
+
+    <h1>Registro de Amigos</h1>
+    <form id="friendForm">
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="text" id="name" placeholder="Nombre" required>
+        <input type="text" id="imageURL" placeholder="URL de la imagen">
+        <input type="text" id="pets" placeholder="Mascotas">
+        <button type="submit">Agregar Amigo</button>
+    </form>
+    <table id="friendTable">
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>Nombre</th>
+                <th>Imagen</th>
+                <th>Mascotas</th>
+                <th>Ver Mascotas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Aquí se insertarán las filas de amigos -->
+        </tbody>
+    </table>
+
+    <ul id="petsList" class="hidden">
+        <!-- Aquí se mostrarán las mascotas del amigo seleccionado -->
+    </ul>
+
+
+    
+</body>
+</html>

@@ -5,6 +5,11 @@ html{
     width: 100%;
     overflow-x: hidden;
 }
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: underline;
+    color:#1717e2
+   
+}
 header {
     background-color: #c4d4ab;
     width: 100%; /* Ancho del encabezado */
@@ -32,14 +37,14 @@ header div ol a {
 }
 
 .boton :hover{
-    background-color: #1717e2;
-    color: #1717e2;
+    
+    color: #eff0d5;
     
 }
 
 body {
     font-family: 'Lora', serif;
-   
+    margin: 0;
     background-color: #eff0d5;
    
 }
@@ -55,10 +60,43 @@ section {
     text-align: center;
 }
 
-.navmenu ul{
+nav{
     text-align: center;
 }
 
+#navmenu{
+    text-align: center;
+    padding: 0; 
+    margin: 0;
+}
+
+#experiencia ul{
+    text-align: center;
+    padding: 0;	
+    margin: 0;
+    list-style: none;
+}
+
+#estudios ol{
+    text-align: center;
+    padding: 0;	
+    margin: 0;
+    list-style: none;
+}
+
+#premios ul{
+    text-align: center;
+    padding: 0;	
+    margin: 0;
+    list-style: none;
+}
+
+#produccion ol{
+    text-align: center;
+    padding: 0;	
+    margin: 0;
+    list-style: none;
+}
 
 
 

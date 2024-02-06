@@ -6,6 +6,12 @@ html{
     width: 100%;
     overflow-x: hidden;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: underline;
+    color:#1717e2
+   
+}
 header {
     background-color: #c4d4ab;
     width: 100%; /* Ancho del encabezado */
@@ -32,9 +38,9 @@ header div ol a {
     font-size: 25px;
 }
 
- .boton :hover{
-    background-color: #1717e2;
-    color: #1717e2;
+.boton :hover{
+    
+    color: #eff0d5;
     
 }
 

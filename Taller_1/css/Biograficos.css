@@ -6,6 +6,12 @@ html{
     width: 100%;
     overflow-x: hidden;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: underline;
+    color:#1717e2
+   
+}
 header {
     background-color: #c4d4ab;
     width: 100%; /* Ancho del encabezado */
@@ -33,8 +39,8 @@ header div ol a {
 }
 
 .boton :hover{
-    background-color: #1717e2;
-    color: #6565ad;
+    
+    color: #eff0d5;
     
 }
 
@@ -47,14 +53,14 @@ body {
 
 
 #maintitle{
-    color: rgb(0, 0, 0);
+    
     text-align: center;
     font-size: 50px;
     
 }
 
 #titletable{
-    color: rgb(0, 0, 0);
+    
     text-align: center;
     font-size: 30px;
 }
@@ -144,4 +150,26 @@ body, h1, h2, p, figure {
 .group2 small {
     font-size: 0.8em;
     color: #666; /* Color del texto secundario */
+}
+
+
+#Table thead {
+    background-color: darkblue; /* Fondo azul oscuro */
+    color: white; /* Texto blanco */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilos para las filas pares de la tabla */
+#Table tbody tr:nth-child(even) {
+    background-color: #c4d4ab; /* Fondo verde claro para filas pares */
+}
+
+/* Estilos para las filas impares de la tabla */
+#Table tbody tr:nth-child(odd) {
+    background-color: white; /* Fondo blanco para filas impares */
+}
+
+/* Estilos para las celdas de la tabla */
+#Table td {
+    color: black; /* Texto negro para todas las celdas */
 }
